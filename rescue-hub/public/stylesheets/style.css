@@ -1,8 +1,29 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00b7ff;
+}
+
+.titles {
+    text-align: center;
+}
+
+.map {
+    height: 400px;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.buttons-div {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons-div a {
+    width: 40%;
+    cursor: pointer;
 }
