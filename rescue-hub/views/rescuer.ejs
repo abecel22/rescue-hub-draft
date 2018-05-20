@@ -17,19 +17,22 @@
         <nav class="nav nav-tabs flex-column flex-sm-row nav-menu">
             <a class="flex-sm-fill text-sm-center nav-link active" href="/">Home</a>
             <a class="flex-sm-fill text-sm-center nav-link" href="/faq">FAQ</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="/register">Register to volunteer</a>
         </nav>
-        <div class="container">
-            <form class="form-signin">
-                <h2 class="form-signin-heading">Sign up</h2>
-                <input type="text" name="username" placeholder="username" class="form-info">
-                <input type="password" name="password" placeholder="password" class="form-info">
-                <button class="btn btn-lg btn-primary btn-block">Register</button>
-                <span class="login-link">Already Registered?
-                    <a href="/login">Login</a>
-                </span>
-            </form>
-        </div>
+        <h1 class="secondary-titles">
+            Rescue Hub
+        </h1>
+        <h2 class="secondary-titles">New Rescue Need</h2>
+        <form class="col-md-6">
+            <div class="form-group">
+                <label for="address">Location</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter Address or Location">
+            </div>
+            <div class="form-group">
+                <label for="rescue-num">Number of People You Can Help</label>
+                <input type="number" class="form-control" id="rescue-num" placeholder="How many can you help?">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
