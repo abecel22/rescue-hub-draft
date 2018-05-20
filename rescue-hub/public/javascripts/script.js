@@ -21,9 +21,11 @@
                 title: name,
                 address: address,
                 click: function(e) {
-                    alert(`
-                    ${name} 
-                    ${address}`);
+                    var infowindow = new google.maps.InfoWindow();
+                    infowindow.setContent(
+                        '<strong>' + name + '</strong><br>' + address
+                    );
+                    infowindow.open(map, this);
                 }
             });
         }
