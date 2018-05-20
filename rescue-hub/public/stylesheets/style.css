@@ -24,6 +24,7 @@ a {
     height: 400px;
     margin-top: 5%;
     padding: 5%;
+    border: 1px solid grey;
 }
 
 .buttons-div {

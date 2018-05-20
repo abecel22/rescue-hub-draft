@@ -12,14 +12,18 @@
         const lat = value['latitude'];
         const lng = value['longitude'];
         const name = value['location_name'];
+        const address = value['location_address'];
 
         if (lat) {
             map.addMarker({
                 lat: lat,
                 lng: lng,
                 title: name,
+                address: address,
                 click: function(e) {
-                    alert('You clicked in this marker');
+                    alert(`
+                    ${name} 
+                    ${address}`);
                 }
             });
         }
