@@ -1,3 +1,3 @@
-# rescue-hub-form
+# Houston Hackathon Draft Project with Express, JS, and CSS.
 
-Testing a form for rescue-hub
+Draft project for rescue-hub. 
